@@ -12,13 +12,13 @@
 4. Reviewed the code powering the website and identified areas where I believe modifications are warranted.
 5. Made changes and tested those changes using the tools available to determine if they are a performance gain or loss.
 
-### Changes I made for the Website Performance Optimization
-    
-index.html
+### Changes I made for the Website Performance Optimizations
+
+* index.html
 1. I Inline the CSS into the HTML
 2. I move down all the script tag
 
-main.js
+* main.js
 1. In the line 455 I change the .querySelectorAll for a better method: .getElementsByClass
 2. In the line 459 I console.log() dx and newwidth to see how crucial these numbers are that need to be calculated inside the For Loop 
 3. In the line 508 I change .querySelectorAll to a more efficient way to access DOM 
