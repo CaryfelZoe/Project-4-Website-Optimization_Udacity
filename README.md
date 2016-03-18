@@ -14,12 +14,12 @@
 
 ### Changes I made for the Website Performance Optimizations
 
-* index.html
-1. I Inline the CSS into the HTML
-2. I move down all the script tag
+1. index.html
+  1. I Inline the CSS into the HTML
+  2. I move down all the script tag
 
-* main.js
-1. In the line 455 I change the .querySelectorAll for a better method: .getElementsByClass
-2. In the line 459 I console.log() dx and newwidth to see how crucial these numbers are that need to be calculated inside the For Loop 
-3. In the line 508 I change .querySelectorAll to a more efficient way to access DOM 
-4. In the line 533 I change the number of pizzas that acctualy appear on the screen
+2. main.js
+  1. In the line 455 I change the .querySelectorAll for a better method: .getElementsByClass
+  2. In the line 459 I console.log() dx and newwidth to see how crucial these numbers are that need to be calculated inside the For Loop 
+  3. In the line 508 I change .querySelectorAll to a more efficient way to access DOM 
+  4. In the line 533 I change the number of pizzas that acctualy appear on the screen
